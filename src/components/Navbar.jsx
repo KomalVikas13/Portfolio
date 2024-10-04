@@ -16,16 +16,16 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    <a href="#" className="font-semibold font-lato leading-6 text-gray-900 hover:scale-125 transition duration-300">
+                    <a href="#" className="font-semibold font-sans leading-6 text-gray-900 hover:scale-125 transition duration-300">
                         Home
                     </a>
-                    <a href="#" className="font-semibold font-lato leading-6 text-gray-900 hover:scale-125 transition duration-300">
+                    <a href="#" className="font-semibold font-sans leading-6 text-gray-900 hover:scale-125 transition duration-300">
                         About me
                     </a>
-                    <a href="#" className="font-semibold font-lato leading-6 text-gray-900 hover:scale-125 transition duration-300">
+                    <a href="#" className="font-semibold font-sans leading-6 text-gray-900 hover:scale-125 transition duration-300">
                         Skills
                     </a>
-                    <a href="#" className="font-semibold font-lato leading-6 text-gray-900 hover:scale-125 transition duration-300">
+                    <a href="#" className="font-semibold font-sans leading-6 text-gray-900 hover:scale-125 transition duration-300">
                         Projects
                     </a>
                 </div>
