@@ -1,3 +1,5 @@
+import Logo from "../assets/logo.svg"
+
 const Navbar = () => {
     return (
         <header className="bg-slate-50 shadow-md border rounded-lg">
@@ -6,12 +8,12 @@ const Navbar = () => {
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
+                    <a href="#" className="">
                         <span className="sr-only">Your Company</span>
                         <img
-                            className="h-8 w-auto"
-                            src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                            alt=""
+                            className="h-6"
+                            src={Logo}
+                            alt="logo"
                         />
                     </a>
                 </div>
@@ -30,7 +32,7 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <button className="bg-white border rounded-2xl px-6">
+                    <button className="bg-blue-400 text-white border rounded-2xl text-base font-semibold px-6 py-1 hover:scale-125 transition duration-300 hover:shadow-lg font-sans">
                         CONTACT ME
                     </button>
                 </div>
