@@ -9,7 +9,7 @@ module.exports = {
       fontFamily: {
         sans: ['Work Sans', 'sans-serif'],
         play: ['Playwrite DE Grund', 'cursive'],
-        space: ['Space Grotesk', 'sans-serif']
+        space: ['Space Grotesk', 'sans-serif'],
       },
       boxShadow: {
         'text-shadow': '2px 2px 4px rgba(0, 0, 0, 0.25)', // Custom text shadow
@@ -23,14 +23,22 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(100%)' },
         },
+        'scrollSkills': {
+          '0%': {
+            transform: 'translateX(50%)', // Starts from the right
+          },
+          '100%': {
+            transform: 'translateX(-100%)', // Moves to the left
+          },
+        },
       },
       animation: {
         'slide-in': 'slide-in 3s forwards',
         'slide-out': 'slide-out 3s forwards',
-        'slide-in-out': 'slide-in 3s forwards, slide-out 3s 3s forwards'
+        'slide-in-out': 'slide-in 3s forwards, slide-out 3s 3s forwards',
+        'scrollSkills': 'scrollSkills 20s linear infinite', // Infinite scroll animation
       },
     },
   },
   plugins: [],
 }
-

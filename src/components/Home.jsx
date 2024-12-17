@@ -19,7 +19,7 @@ const Home = () => {
   }, [titles]);
 
   return (
-    <div className="flex flex-row justify-around items-center w-[98%] h-screen">
+    <div id="home" className="flex flex-row justify-around items-center w-[98%] h-screen">
       <div className="flex flex-col h-1/2 w-[40%] justify-around items-center">
         <div className="text-4xl font-sans">
           <p className="mb-3">Hi, I am</p>
